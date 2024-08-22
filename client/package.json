@@ -1,0 +1,32 @@
+{
+  "dependencies": {
+    "@types/three": "^0.167.1",
+    "simplex-noise": "^4.0.3",
+    "socket.io-client": "^4.7.5",
+    "three": "^0.167.1",
+    "three-sky": "^1.1.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.4.0",
+    "@typescript-eslint/eslint-plugin": "^8.1.0",
+    "@typescript-eslint/parser": "^8.1.0",
+    "eslint": "^9.9.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "typescript": "^5.5.4",
+    "vite": "^5.4.1"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "name": "sim",
+  "version": "1.0.0",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
